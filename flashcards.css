@@ -1,0 +1,28 @@
+.select-wrapper input.select-dropdown {
+    background-color: white;
+    color: black;
+    z-index: 0;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: black;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+
+textarea {
+    color: white;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after{
+    border: #424242;
+    background-color: #424242;
+}
